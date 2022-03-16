@@ -43,32 +43,38 @@ useEffect(() => {
   return (
     <section className="timer-container">
       <section className="timer">
-        <div>
-          <span className="mdi mdi-calendar-clock timer-icon"></span>
-            <h2>Pyrokinesis 2022</h2>
-            <p>Bohemian Escapade</p>
-        </div>
-        <div>
-          <section>
-            <p>{timerDays}</p>
-            <p><small>Days</small></p>
-          </section>
-          <span>:</span>
-          <section>
-          <p>{timerHours}</p>
-            <p><small>Hours</small></p>
-          </section>
-          <span>:</span>
-          <section>
-          <p>{timerMinutes}</p>
-            <p><small>Minutes</small></p>
-          </section>
-          <span>:</span>
-          <section>
-          <p>{timerSeconds}</p>
-            <p><small>Seconds</small></p>
-          </section>
-        </div>
+        <Container fluid>
+          <Row>
+            <div>
+              <span className="mdi mdi-calendar-clock timer-icon"></span>
+                <h2>Pyrokinesis 2022</h2>
+                <p>Bohemian Escapade</p>
+            </div>
+            </Row>
+            <Row>
+            <div>
+              <section>
+                <p>{timerDays}</p>
+                <p><small>Days</small></p>
+              </section>
+              <span>:</span>
+              <section>
+              <p>{timerHours}</p>
+                <p><small>Hours</small></p>
+              </section>
+              <span>:</span>
+              <section>
+              <p>{timerMinutes}</p>
+                <p><small>Minutes</small></p>
+              </section>
+              <span>:</span>
+              <section>
+              <p>{timerSeconds}</p>
+                <p><small>Seconds</small></p>
+              </section>
+            </div>
+          </Row>
+        </Container>
       </section>
     </section>
   );
