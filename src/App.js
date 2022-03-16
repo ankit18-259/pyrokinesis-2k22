@@ -44,7 +44,6 @@ useEffect(() => {
     <section className="timer-container">
       <section className="timer">
         <div>
-          <span className="mdi mdi-calendar-clock timer-icon"></span>
             <h2>Pyrokinesis 2022</h2>
             <p>Bohemian Escapade</p>
         </div>
@@ -68,7 +67,7 @@ useEffect(() => {
           <p>{timerSeconds}</p>
             <p><small>Seconds</small></p>
           </section>
-        </div>
+          </div>
       </section>
     </section>
   );
