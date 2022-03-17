@@ -11,17 +11,21 @@
 body {
     font-family: 'Quicksand', sans-serif;
     font-size: 100%;
+    overflow: hidden;
 }
 
 .timer-container{
+   /* padding: 100%; */
     background-image: url('./background.png');
     background-position: center;
     background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 45%;
     background-color: black;
     color: rgb(172 165 155 / 85%);
     width: 100vw;
     height: 100vh;
-}
+    }
 
 .timer {
     background-color:rgba(0,0,0,0.5);
@@ -35,16 +39,17 @@ body {
 }
 
 h2{
-    font-weight: 600;
-    margin: bottom 0.5em;
-    font-size: 30px;
+    font-weight: 100%;
+    /* margin: bottom 0.5em; */
+    font-size: 300%;
     display: flex;
     flex: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 7em;
-    padding-top: 2em;
+    padding-bottom: 20%;
+    padding-top: 5%;
 }
+
 
 .timer div:first-child p{
     color:rgb(172 165 155 / 85%);
@@ -53,13 +58,13 @@ h2{
 .timer div:last-child{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    padding: 3em;
+    /* padding: 10%; */
     display: flex;
     flex: column;
     align-items: bottom;
     justify-content: center;
-    padding-bottom: 2em;
-    padding-top: 7em;
+    /* padding-bottom: 10%; */
+    padding-top: 10%;
  
 }
 
