@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Smooch&display=swap');
+*{
+  margin: 0;
+  padding:0;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  opacity: 0.50;
+}
+
+.navbar-brand{
+  font-family: 'Satisfy', cursive;
+}
+/* .home_sec{
+  height: 558px;
+} */
+
+
+.home_sec{
+  height: 700px;
+  background-color: rgba(10, 9, 19, 0.959);
+}
+
+
+.pyro_home{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+@media (max-width: 960px) {
+  .pyro_home {
+    flex-direction: column;
+  }
+}
+@media (max-width: 561px) {
+  #id1 {
+    font-size: 45px;
+  }
+}
+
+#pyro_img{
+  height: 450px;
+}
+
+@media (max-width: 561px) {
+  #pyro_img {
+    height: 300px;
+  }
+}
+.pyro_home_title{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.about_pyro{
+  display: flex;
+  margin-top: 10%;
+  flex-direction: row;
+}
+
+.pyro_home_title h1{
+  font-family: 'Smooch', cursive;
+  font-size: 75px;
+}
+.pyro_home_title h3{
+  font-family: 'Cookie', cursive;
+  font-size: 36px;
+  text-align: center;
+}
+
+
+@media (max-width: 800px) {
+  .about_pyro {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .about_vid {
+    width: fit-content;
+  }
+}
+
+
+
+.pyro_title h2{
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+#pyro_date {
+  text-align: center;
+  font-weight: bold;
+}
+.about_para p{
+  padding: 40px;
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 18px;
+}
+@media (min-width: 800px) {
+  .about_vid {
+  padding-right: 15px;
+  padding-top: 35px;
+  }
+}
+
+
+.about_vid{
+  padding-right: 15px;
+  padding-top: 35px;
+
+}
+
+.pyro_theme{
+  text-align: center;
+  padding: 40px;
+  background-color: rgb(19, 19, 43);
+  margin: 50px;
+  color: white;
+}
+
