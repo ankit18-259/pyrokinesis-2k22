@@ -1,7 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 import'./card-style.css';
+import {Link} from 'react-router-dom'
 
-const Card = props=>{
+const Card = (props)=>{
     return(
       <div className="card text-center shadow">
           <div className="overflow">
@@ -12,7 +14,7 @@ const Card = props=>{
               {/* <p className="card-text text-secondary">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, placeat.
               </p> */}
-              <a href={props.connect} className='btn btn-outline-dark'>Apply</a>
+                <Link  className='btn btn-outline-dark' to={props.detail}>Apply</Link>
           </div>
       </div>
     );
