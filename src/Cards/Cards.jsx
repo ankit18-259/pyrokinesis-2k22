@@ -34,22 +34,22 @@ function Cards(props) {
                       <Card imgsrc={img3} title="BORDOISILA" detail='/event/bordoisila'/>
                   </div>
                   <div className="col-md-3">
-                      <Card imgsrc={img4} title="STACCATO" detail='/event/staccato' connect="https://forms.gle/xpT8jfEnKHZv9xRi9"/>
+                      <Card imgsrc={img4} title="STACCATO" detail='/event/staccato'/>
                   </div>
                   <div className="col-md-3">
-                      <Card imgsrc={img5} title="FUN & GAMES" detail='/event/funandgames' connect="https://forms.gle/4dwYkggmF8uhGHV38"/>
+                      <Card imgsrc={img5} title="FUN & GAMES" detail='/event/funandgames' />
                   </div>
                   <div className="col-md-3">
-                      <Card imgsrc={img6} title="এৰা বাটৰ সুৰ" detail="/event/erapatorhur" connect="https://docs.google.com/forms/d/1gMM5Xx0QYehtaVdUohGTG3O_DCssyKaiigZSr-Ktcvk/edit?usp=drivesdk"/>
+                      <Card imgsrc={img6} title="এৰা বাটৰ সুৰ" detail="/event/erapatorhur" />
                   </div>
                   <div className="col-md-3">
                       <Card title="MARS & VENUS" detail='/event/marsandvenus'/>
                   </div>
                   <div className="col-md-3">
-                      <Card imgsrc={img8}  detail='/event/aectrial'title="AEC Trial" connect="https://forms.gle/RrLAM843cJWChxAT8"/>
+                      <Card imgsrc={img8}  detail='/event/aectrial'title="AEC Trial" />
                   </div>
                   <div className="col-md-3">
-                      <Card imgsrc={img9} detail='/event/aecgrandslam' title="AEC GRAND SLAM" connect="https://forms.gle/b993FaFjpZztBv8z9"/>
+                      <Card imgsrc={img9} detail='/event/aecgrandslam' title="AEC GRAND SLAM" />
                   </div>
                   <div className="col-md-3">
                       <Card title="Electrofest" detail='/event/electrofest' connect="https://docs.google.com/forms/d/e/1FAIpQLScYZoN62AGjhJksRQ1_U-JyVidh3-ZSQHlLN3eyXtUFjG9vQA/viewform"/>

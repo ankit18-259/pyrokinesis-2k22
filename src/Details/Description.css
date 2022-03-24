@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+.stylish {
+  padding-top: 10%;
+  font-family: "Dosis", sans-serif;
+}
+.stylish p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.stylish h4 {
+  padding-top: 3%;
+}
+.stylish h6 {
+  padding-top: 1%;
+}

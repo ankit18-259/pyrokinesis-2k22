@@ -25,8 +25,9 @@ import Funandgames from './Details/funandgames'
 import Marsandvenus from './Details/marsandvenus'
 import Aectrial from './Details/aectrial'
 import Aecgrandslam from './Details/aecgrandslam'
-import Elrctrofest from './Details/electrofest'
-import Electrofest from './Details/electrofest';
+import Electrofest from './Details/electrofest'
+import Staccato from './Details/staccato'
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -92,6 +93,9 @@ ReactDOM.render(
         <Route path ='/event/electrofest'>
           <Electrofest />
         </Route> 
+        <Route path ='/event/staccato'>
+          <Staccato />
+        </Route>
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
