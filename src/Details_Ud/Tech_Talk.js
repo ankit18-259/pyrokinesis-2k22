@@ -1,10 +1,12 @@
 import React from 'react'
-import './Description.css'
+import Ud_style from './Ud_Details.css'
+import img from '../images/tech_talk.jpg'
 
-export default function Battleofbands(){
+export default function Tech_Talk(){
     return(
         <div className="description">
-            <h1>Battle of Bands</h1>
+            <img src={img} /> 
+            <h1>Tech Talk</h1>
             <div className="stylish">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequuntur?</p>
             <h4>Date: </h4>

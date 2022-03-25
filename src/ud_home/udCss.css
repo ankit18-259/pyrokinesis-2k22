@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+*{
+  margin: 0;
+  padding:0;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.home_sec2{
+  height: 700px;
+  background-color: rgba(10, 9, 19, 0.959);
+}
+
+.ud_home{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+@media (max-width: 1000px) {
+  .ud_home {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 561px) {
+  #id2 {
+    font-size: 45px;
+  }
+}
+
+#ud_img{
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 561px) {
+  #pyro_img {
+    height: 300px;
+  }
+}
+.ud_home_title{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.ud_home_title h1{
+    font-family: 'Smooch', cursive;
+    font-size: 65px;
+  }
+
+.class1{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 70px;
+  font-family: 'Kalam', cursive;
+}
+
+
+ 
+
+
+
+
+

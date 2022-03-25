@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+.navbar{
+    opacity: 0.50;
+  }
+  
+  .navbar-brand{
+    font-family: 'Satisfy', cursive;
+  }

@@ -13,8 +13,11 @@ import img9 from '../images/Aec_grand_slam.jpg'
 import img10 from '../images/electrofest.jpg'
 import img11 from '../images/skoar.jpg'
 import img12 from '../images/shatranj.jpg'
+import img13 from '../images/Natraj.jpg'
+import img14 from '../images/footloose.jpg'
 import img15 from '../images/visavis.jpg'
 import img16 from '../images/iron.jpg'
+import img20 from '../images/basketball.jpg'
 
 
 function Cards(props) {
@@ -66,10 +69,10 @@ function Cards(props) {
                       <Card title="SHATRANJ" imgsrc={img12}detail='/event/shatranj' />
                   </div>
                   <div className="col-md-3">
-                      <Card title="NATRAJ" detail='/event/natraj' description="classical dance"/>
+                      <Card title="NATRAJ" detail='/event/natraj' imgsrc={img13} description="classical dance"/>
                   </div>
                   <div className="col-md-3">
-                      <Card title="BATTLE OF BANDS" detail='/event/battleofbands'/>
+                      <Card title="FOOT LOOSE" imgsrc={img14} detail='/event/footloose'/>
                   </div>
                   <div className="col-md-3">
                       <Card title="VIS-A-VIS" imgsrc={img15}detail='/event/visavis'/>
@@ -87,7 +90,7 @@ function Cards(props) {
                       <Card title="BEACH VOLLEYBALL 3 ON 3" detail='/event/beachvolleyball'/>
                   </div>
                    <div className="col-md-3">
-                      <Card title="BASKET BALL" detail='/event/basketball'/>
+                      <Card title="BASKET BALL" imgsrc={img20} detail='/event/basketball'/>
                   </div>
                    
                 </div>

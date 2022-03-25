@@ -1,24 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Router, Switch, Route } from "react-router-dom";
 import PropTypes from 'prop-types'
 
+import Cards from './Cards/Cards';
+import CosAec from './Details/CosAec';
+import Football from './Details/football5on5';
+import Skoar from './Details/skoar';
+import Shatranj from './Details/shatranj';
+import Natraj from './Details/natraj';
+import Footloose from './Details/Footloose';
+import Visavis from './Details/visavis';
+import Ironman from './Details/ironman';
+import Streetbeatz from './Details/streetbeatz';
+import Cricket from './Details/cricket6on6';
+import Volleyball from './Details/beachvolleyball';
+import Basketball from './Details/basketball';
+import Bordoisila from './Details/bordoisila';
+import Erapatorhur from './Details/erapatorhur'
+import Funandgames from './Details/funandgames'
+import Marsandvenus from './Details/marsandvenus'
+import Aectrial from './Details/aectrial'
+import Aecgrandslam from './Details/aecgrandslam'
+import Electrofest from './Details/electrofest'
+import Staccato from './Details/staccato'
+
+
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-import Udhvaban from './udhvaban.js'
-import Pyroevent from './pyroevent.js'
-import Navbar from './Navbar/navbar.jsx'
-
-ReactDOM.render(
-  <React.StrictMode>
-    <Navbar />
-    <BrowserRouter>
-        <Pyroevent />
-        <Udhvaban/>
-
-      {/* <Switch>
+function Pyroevent(){
+    return(
+     <Switch>
         <Route path = "/events">
           <Cards />
         </Route>
@@ -37,8 +49,8 @@ ReactDOM.render(
         <Route path ='/event/natraj'>
           <Natraj />
         </Route> 
-        <Route path ='/event/battleofbands'>
-          <Battleofbands />
+        <Route path ='/event/footloose'>
+          <Footloose />
         </Route> 
         <Route path ='/event/visavis'>
           <Visavis />
@@ -82,13 +94,9 @@ ReactDOM.render(
         <Route path ='/event/staccato'>
           <Staccato />
         </Route>
-      </Switch> */}
-    </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+      </Switch> 
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    );
+}
+
+export default Pyroevent;
