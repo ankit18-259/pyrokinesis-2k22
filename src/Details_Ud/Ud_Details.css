@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+  }
+  .stylish {
+    padding-top: 5%;
+    font-family: "Dosis", sans-serif;
+  }
+  .stylish p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .stylish h4 {
+    padding-top: 3%;
+  }
+  .stylish h6 {
+    padding-top: 1%;
+  }
+  .description h1{
+    padding-top: 2%;
+  }
+  @media (max-width: 700px) {
+    .description h1 {
+      padding-top: 20%;
+    }
+  }
+  .description img{
+    width: 70%;
+  }
+  @media (max-width: 700px) {
+    .description img {
+      width: 100%;
+    }
+  }
