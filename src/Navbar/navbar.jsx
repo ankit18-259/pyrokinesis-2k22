@@ -14,7 +14,7 @@ class Navbar extends Component {
                 <div className="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">Home <span className="sr-only"></span></a>
+                            <a className="nav-link" href="/">Home <span className="sr-only"></span></a>
                         </li>
                         <li className="nav-item ">
                             <a className="nav-link" href="#">Theme</a>
@@ -26,7 +26,7 @@ class Navbar extends Component {
                             <a className="nav-link" href="/udbhavanams">Udbhavanam</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Team</a>
+                            <a className="nav-link" href="/teams">Team</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Contact Us</a>

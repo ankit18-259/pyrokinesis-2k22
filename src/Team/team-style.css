@@ -1,0 +1,41 @@
+bodbody {
+  background: radial-gradient(#e5e5e5, #ffff, #e5e5e5);
+}
+
+.card {
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 100% 100% 100% rgba(0, 0, 0, 0.253) !important;
+}
+
+.card-body {
+  padding: 1rem 0 !important;
+}
+
+.team-body {
+  font-size: 5%;
+  /* padding: 0.5% 0.5%; */
+  font-family: "Noto Sans", sans-serif;
+}
+.team-body h4 {
+  padding-top: 1%;
+}
+
+/* .container-fluid .row {
+  padding-top: 6%;
+} */
+
+.overflow {
+  overflow: hidden;
+}
+.card-img-top {
+  width: 100%;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1);
+}
