@@ -1,8 +1,11 @@
 import React from 'react'
+import './Description.css'
+import img from '../images/এৰা_বাটৰ_সুৰ.jpg'
 
 export default function Erapatorhur(){
     return(
         <div className="description">
+            <img src={img} />
             <h1>এৰা বাটৰ সুৰ</h1>
             <div className="stylish">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequuntur?</p>

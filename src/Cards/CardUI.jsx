@@ -14,7 +14,7 @@ const Card = (props)=>{
               {/* <p className="card-text text-secondary">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, placeat.
               </p> */}
-                <Link  className='btn btn-outline-dark' to={props.detail}>Apply</Link>
+                <Link  className='btn btn-outline-dark' to={props.detail}>Read more</Link>
           </div>
       </div>
     );

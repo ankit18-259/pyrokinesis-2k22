@@ -7,9 +7,14 @@ import img3 from '../images/Bordoisila.jpg'
 import img4 from '../images/staccato.jpg'
 import img5 from '../images/fun_and_games.jpg'
 import img6 from '../images/এৰা_বাটৰ_সুৰ.jpg'
+import img7 from '../images/mars.jpg'
 import img8 from '../images/intracity_ride.jpg'
 import img9 from '../images/Aec_grand_slam.jpg'
-
+import img10 from '../images/electrofest.jpg'
+import img11 from '../images/skoar.jpg'
+import img12 from '../images/shatranj.jpg'
+import img15 from '../images/visavis.jpg'
+import img16 from '../images/iron.jpg'
 
 
 function Cards(props) {
@@ -43,22 +48,22 @@ function Cards(props) {
                       <Card imgsrc={img6} title="এৰা বাটৰ সুৰ" detail="/event/erapatorhur" />
                   </div>
                   <div className="col-md-3">
-                      <Card title="MARS & VENUS" detail='/event/marsandvenus'/>
+                      <Card title="MARS & VENUS" imgsrc={img7} detail='/event/marsandvenus'/>
                   </div>
                   <div className="col-md-3">
-                      <Card imgsrc={img8}  detail='/event/aectrial'title="AEC Trial" />
+                      <Card imgsrc={img8}  detail='/event/aectrial'title="REAL Trial" />
                   </div>
                   <div className="col-md-3">
                       <Card imgsrc={img9} detail='/event/aecgrandslam' title="AEC GRAND SLAM" />
                   </div>
                   <div className="col-md-3">
-                      <Card title="Electrofest" detail='/event/electrofest' connect="https://docs.google.com/forms/d/e/1FAIpQLScYZoN62AGjhJksRQ1_U-JyVidh3-ZSQHlLN3eyXtUFjG9vQA/viewform"/>
+                      <Card title="Electrofest" imgsrc={img10} detail='/event/electrofest' />
                   </div>
                   <div className="col-md-3">
-                      <Card title="SKOAR" detail='/event/skoar' />
+                      <Card title="SKOAR" imgsrc={img11}  detail='/event/skoar' />
                   </div>
                   <div className="col-md-3">
-                      <Card title="SHATRANJ" detail='/event/shatranj' connect="https://forms.gle/eLz1xCWDGPxDqzyi8"/>
+                      <Card title="SHATRANJ" imgsrc={img12}detail='/event/shatranj' />
                   </div>
                   <div className="col-md-3">
                       <Card title="NATRAJ" detail='/event/natraj' description="classical dance"/>
@@ -67,10 +72,10 @@ function Cards(props) {
                       <Card title="BATTLE OF BANDS" detail='/event/battleofbands'/>
                   </div>
                   <div className="col-md-3">
-                      <Card title="VIS-A-VIS" detail='/event/visavis'/>
+                      <Card title="VIS-A-VIS" imgsrc={img15}detail='/event/visavis'/>
                   </div>
                   <div className="col-md-3">
-                      <Card title="IRON MAN" detail='/event/ironman'/>
+                      <Card title="IRON MAN" imgsrc={img16} detail='/event/ironman'/>
                   </div>
                   <div className="col-md-3">
                       <Card title="STREET BEATZ" detail='/event/streetbeatz'/>

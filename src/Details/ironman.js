@@ -1,8 +1,11 @@
 import React from 'react'
+import './Description.css'
+import img from '../images/iron.jpg'
 
 export default function Ironman(){
     return(
         <div className="description">
+              <img src={img} />
             <h1>Iron Man</h1>
             <div className="stylish">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequuntur?</p>

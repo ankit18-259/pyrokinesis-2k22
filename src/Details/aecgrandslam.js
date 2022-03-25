@@ -1,9 +1,11 @@
 import React from 'react'
 import './Description.css'
+import img from '../images/Aec_grand_slam.jpg'
 
 export default function Aecgrandslam(){
     return(
         <div className="description">
+            <img src={img} />
             <h1>Aec Grand Slam</h1>
             <div className="stylish">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, magnam! Fuga, accusamus officiis. Illum nesciunt asperiores, doloremque voluptatum laboriosam commodi in. Excepturi harum molestias esse quos necessitatibus, consequuntur sequi fuga ratione quam dolorum sunt inventore iste. Dolore corrupti ipsa fugit.

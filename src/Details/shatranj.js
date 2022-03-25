@@ -1,8 +1,11 @@
 import React from 'react'
+import './Description.css'
+import img from '../images/shatranj.jpg'
 
 export default function Shatranj(){
     return(
         <div className="description">
+              <img src={img} />
             <h1>Shatranj</h1>
             <div className="stylish">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequuntur?</p>

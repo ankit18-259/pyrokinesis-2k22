@@ -1,8 +1,11 @@
 import React from 'react'
+import './Description.css'
+import img from '../images/fun_and_games.jpg'
 
 export default function Funandgames(){
     return(
         <div className="description">
+            <img src={img} />
             <h1>Fun and Games</h1>
             <div className="stylish">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequuntur?</p>

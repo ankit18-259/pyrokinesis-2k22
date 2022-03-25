@@ -29,6 +29,7 @@ import Electrofest from './Details/electrofest'
 import Staccato from './Details/staccato'
 
 
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>

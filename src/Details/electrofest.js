@@ -1,8 +1,11 @@
 import React from 'react'
+import './Description.css'
+import img from '../images/electrofest.jpg'
 
 export default function Electrofest(){
     return(
         <div className="description">
+            <img src={img} />
             <h1>Electrofest</h1>
             <div className="stylish">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequuntur?</p>

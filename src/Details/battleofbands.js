@@ -1,4 +1,5 @@
 import React from 'react'
+import './Description.css'
 
 export default function Battleofbands(){
     return(
