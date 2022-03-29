@@ -115,14 +115,6 @@ html{
   color: white;
 }
 
-/* @media (max-width: 810px) {
-    .about_vid {
-      height: 50%;
-      width: 100%;
-      position: center;
-    }
-  } */
-
 @media (max-width: 654px){
   .about_vid iframe {
       height: 100%;
