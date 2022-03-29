@@ -24,6 +24,7 @@ import Aectrial from './Details/aectrial'
 import Aecgrandslam from './Details/aecgrandslam'
 import Electrofest from './Details/electrofest'
 import Staccato from './Details/staccato'
+import Armwars from './Details/Armwars'
 
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -93,6 +94,9 @@ function Pyroevent(){
         </Route> 
         <Route path ='/event/staccato'>
           <Staccato />
+        </Route>
+        <Route path ='/event/Armwars'>
+          <Armwars />
         </Route>
       </Switch> 
 

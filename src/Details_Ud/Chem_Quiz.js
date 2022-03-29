@@ -8,10 +8,12 @@ export default function Chem_Quiz(){
             <img src={img} />
             <h1>Chem Quiz</h1>
             <div className="stylish">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto possimus quas omnis sapiente quisquam aspernatur nulla asperiores placeat voluptates exercitationem, perferendis provident reprehenderit ut libero dolor distinctio corporis modi reiciendis neque ipsam ad molestias? Excepturi libero quos cum eaque deserunt nihil veritatis modi minus mollitia molestiae adipisci magnam commodi animi pariatur vitae nesciunt inventore tempora asperiores dolor, dolores facilis impedit ullam. Cumque sapiente alias totam, dolorem commodi sequi ullam animi voluptatibus architecto earum ab. </p>
+            <p> "Chemistry begins in the stars, the stars are the source of chemical elements, which are the building blocks of matter and core of our subject"
+This March-end the wait finally ends, the annual technical event 'Chemquiz' under the banner of Udbhavanam is here. 
+Chemquiz is a Mega-State level quiz competition for all the chemistry enthusiast folks, to tackle some brain-racking yet interesting questions. Join in groups of two and get a chance to win the BIGGEST Chemistry quiz in town.</p>
             <h4>Date: </h4>
-            <h6>Lorem, ipsum.</h6>
-            <a  className='btn btn-outline-dark' href="">Apply</a>
+            <h6>31st March</h6>
+            <a  className='btn btn-outline-dark' href="https://docs.google.com/forms/d/e/1FAIpQLSef8BblG8Yi-CKNAq9ONdAM0EkWkoEmSbDukkfwfoZmvbunrA/viewform?usp=sf_link">Apply</a>
             </div>
         </div>
     );

@@ -14,12 +14,13 @@ import img10 from '../images/decodestack.jpeg'
 import img11 from '../images/robo_sumo.jpg'
 import img12 from '../images/robo_soccer.jpg'
 import img13 from '../images/line_follow.jpg'
-import img14 from '../images/beat-the.jpg'
+import img14 from '../images/aerotech.jpg'
 import img15 from '../images/Echoes poster jpg (1) - atrayee bharadwaj.jpg'
 import img16 from '../images/Grey Matters 2022 poster - Nilim Shekhar Bordoloi.jpg'
 import img17 from '../images/Shapethescrap Pyrokinesis2022.jpg'
 import img18 from '../images/constellate.jpeg'
 import img19 from '../images/the_discussion_isle.jpg'
+import img20 from '../images/Headshoot.jpeg'
 
 
 
@@ -85,9 +86,9 @@ class Cards extends Component {
                     <div className="col-md-3">
                         <Card imgsrc={img19} title="THE DISCUSSION ISLE" detail='/udbhavanam/The_Discussion'/>
                     </div>
-                    {/* <div className="col-md-3">
-                        <Card title="BASKET BALL" />
-                    </div> */}
+                    <div className="col-md-3">
+                        <Card imgsrc={img20} title="Headshot" detail='/udbhavanam/Headshot'/>
+                    </div>
                 </div>
             </div>
         );

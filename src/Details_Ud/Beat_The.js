@@ -9,10 +9,11 @@ export default function Beat_The(){
             <img src={img} />
             <h1>Beat The Circuitry</h1>
             <div className="stylish">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequuntur?</p>
+            <p>Circuit building event. This is an event where a student needs to solve a given problem statement by making a circuit that will be made using the circuit elements provided by the organising body.
+Also a round with mcqs that will be based on Network Theorems will be taken up first.</p>
             <h4>Date: </h4>
-            <h6>Lorem, ipsum.</h6>
-            <a  className='btn btn-outline-dark' href="">Apply</a>
+            <h6>30 March</h6>
+            <a  className='btn btn-outline-dark' href="https://forms.gle/ZoPzLeTWoroG6oFu8">Apply</a>
             </div>
         </div>
     );

@@ -12,14 +12,31 @@ import Pyroevent from './pyroevent.js'
 import Navbar from './Navbar/navbar.jsx'
 import lol from './home.js'
 import Teams from './Team/Team.jsx'
-
+import Home from './home.js'
+import ContactList from './contact/contact.js'
+import Theme from './Theme.js'
 ReactDOM.render(
   <React.StrictMode>
     <Navbar />
     <BrowserRouter>
     <Switch>
+      <Route exact path='/theme'>
+        <Theme/>
+      </Route>
+    </Switch>
+    <Switch>
       <Route exact path='/teams'>
         <Teams/>
+      </Route>
+    </Switch>
+    <Switch>
+      <Route exact path='/contact'>
+        <ContactList/>
+      </Route>
+    </Switch>
+    <Switch>
+      <Route exact path='/'>
+        <Home/>
       </Route>
     </Switch>
         <Pyroevent />
@@ -29,7 +46,5 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 reportWebVitals();

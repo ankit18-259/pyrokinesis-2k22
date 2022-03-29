@@ -25,6 +25,7 @@ import Stock_Warz from './Details_Ud/Stock_Warz';
 import Tech_Talk from './Details_Ud/Tech_Talk';
 import The_Discussion from './Details_Ud/The_Discussion';
 import Decode_Stack from './Details_Ud/Decode_Stack';
+import Headshot from './Details_Ud/Headshot';
 
 function Udhvaban(){
     return(
@@ -90,12 +91,9 @@ function Udhvaban(){
         <Route path ='/udbhavanam/The_Discussion'>
           <The_Discussion />
         </Route> 
-        {/* <Route path ='/event/electrofest'>
-          <Electrofest />
+        <Route path ='/udbhavanam/Headshot'>
+          <Headshot />
         </Route> 
-        <Route path ='/event/staccato'>
-          <Staccato />
-        </Route> */}
       </Switch>
 
     );

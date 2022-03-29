@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import udCss from './udCss.css';
+import './udCss.css';
 
 import imghome from '../images/Udbhavanam logo (4).png'
 
@@ -16,7 +16,10 @@ class UdHome extends Component {
                     </div>
                 </div>
 
-                <div className = "class1">Events</div>
+                <div className="class1">Events</div>
+                
+
+                
             </div>
 
         );

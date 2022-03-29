@@ -8,10 +8,9 @@ export default function Football5on5(){
             <img src={img} />
             <h1>Football 5 on 5</h1>
             <div className="stylish">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequuntur?</p>
+            <p>It is a 5 aside football match or a futsal </p>
             <h4>Date: </h4>
-            <h6>Lorem, ipsum.</h6>
-            <a  className='btn btn-outline-dark' href="">Apply</a>
+            <h6>30 March to 2 April</h6>
             </div>
         </div>
     );

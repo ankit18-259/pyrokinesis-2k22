@@ -9,9 +9,12 @@ export default function Natraj(){
             <img src={img} />
             <h1>Natraj</h1>
             <div className="stylish">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequuntur?</p>
+            <p>Natraj is a hindu god. Natraj is the only classical cum semi classical dance competition in AEC and under the banner of pyrokinesis.
+
+Participants can participate as solo or as a group.
+</p>
             <h4>Date: </h4>
-            <h6>Lorem, ipsum.</h6>
+            <h6>30th March</h6>
             <a  className='btn btn-outline-dark' href="https://forms.gle/uZVwwCKBpTwqB1Gb9">Apply</a>
             </div>
         </div>

@@ -17,16 +17,14 @@ import img13 from '../images/Natraj.jpg'
 import img14 from '../images/footloose.jpg'
 import img15 from '../images/visavis.jpg'
 import img16 from '../images/iron.jpg'
+import img17 from '../images/Strret.png'
+import img18 from '../images/cricket6on6.png'
+import img19 from '../images/iron.jpg'
 import img20 from '../images/basketball.jpg'
+import img21 from '../images/armwars.jpg'
 
 
 function Cards(props) {
-
-    // let history = useHistory();
-
-    // const cosaec = () => {
-    //     history.push('/cosaec')
-    // };
 
         return(
           <div className="container-fluid d-flex justify-content-center">
@@ -54,7 +52,7 @@ function Cards(props) {
                       <Card title="MARS & VENUS" imgsrc={img7} detail='/event/marsandvenus'/>
                   </div>
                   <div className="col-md-3">
-                      <Card imgsrc={img8}  detail='/event/aectrial'title="REAL Trial" />
+                      <Card imgsrc={img8}  detail='/event/aectrial'title="Real Trial" />
                   </div>
                   <div className="col-md-3">
                       <Card imgsrc={img9} detail='/event/aecgrandslam' title="AEC GRAND SLAM" />
@@ -81,16 +79,19 @@ function Cards(props) {
                       <Card title="IRON MAN" imgsrc={img16} detail='/event/ironman'/>
                   </div>
                   <div className="col-md-3">
-                      <Card title="STREET BEATZ" detail='/event/streetbeatz'/>
+                      <Card title="STREET BEATZ" imgsrc={img17} detail='/event/streetbeatz'/>
                   </div>
                   <div className="col-md-3">
-                      <Card title="CRICKET 6 ON 6" detail='/event/cricket6on6'/>
+                      <Card title="CRICKET 6 ON 6" imgsrc={img18} detail='/event/cricket6on6'/>
                   </div>
-                  <div className="col-md-3">
-                      <Card title="BEACH VOLLEYBALL 3 ON 3" detail='/event/beachvolleyball'/>
-                  </div>
+                  {/* <div className="col-md-3">
+                      <Card title="BEACH VOLLEYBALL 3 ON 3" imgsrc={img19} detail='/event/beachvolleyball'/>
+                  </div> */}
                    <div className="col-md-3">
                       <Card title="BASKET BALL" imgsrc={img20} detail='/event/basketball'/>
+                  </div>
+                   <div className="col-md-3">
+                      <Card title="ARMWARS" imgsrc={img21} detail='/event/Armwars'/>
                   </div>
                    
                 </div>

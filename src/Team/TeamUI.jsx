@@ -5,7 +5,7 @@ const Team = props=>{
     return(
       <div className="card text-center shadow">
           <div className="overflow">
-              < img src={props.imgsrc} alt="image 1"  className='card-img-top' />
+              < img src={props.imgsrc} alt="image 1"  className='team-img-top' />
           </div>
           <div className="team-body text-dark">
               <h4 className="card-title">{props.title}</h4>
